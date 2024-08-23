@@ -1,0 +1,18 @@
+Criar uma calculadora que realiza as operações aritméticas básicas: soma, subtração, multiplicação, 
+divisão e resto da divisão. Além disso, o programa deve manter um histórico das operações realizadas 
+e permitir ao usuário visualizar esse histórico.
+
+### **Passo 1:**
+
+Criar o repositório no GitHub, adicionar os colaboradores, e fazer o [upload dos arquivos iniciais](https://www.notion.so/Descri-o-geral-do-projeto-preparat-rio-dcc1ed78b7fb416194ad8a3800e151cc?pvs=21).
+
+### **Passo 2:**
+
+[Criar o fluxograma](https://www.notion.so/Descri-o-geral-do-projeto-preparat-rio-dcc1ed78b7fb416194ad8a3800e151cc?pvs=21), garantir que ele reflete corretamente o fluxo da calculadora conforme implementado, e adicionar o print do fluxograma ao repositório.
+
+### **Passo 3:**
+
+Cada colaborador deve clonar o repositório do grupo, [desenvolver as tarefas](https://www.notion.so/Descri-o-geral-do-projeto-preparat-rio-dcc1ed78b7fb416194ad8a3800e151cc?pvs=21), e enviar (fazer commit e push) o código para o repositório do grupo.
+
+ **Atenção:** Algumas tarefas devem ser realizadas em conjunto, compartilhando a tela, enquanto outras podem ser feitas individualmente em cada computador.
+
