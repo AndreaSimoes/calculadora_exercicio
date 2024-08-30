@@ -16,3 +16,4 @@ Cada colaborador deve clonar o repositório do grupo, [desenvolver as tarefas](h
 
  **Atenção:** Algumas tarefas devem ser realizadas em conjunto, compartilhando a tela, enquanto outras podem ser feitas individualmente em cada computador.
 
+
