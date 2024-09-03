@@ -1,5 +1,5 @@
 def subtrair(a,b):
-    diminuir = a - b 
-    print(diminuir)
-    return diminuir
+    conta = a - b 
+    print("\nO resultado da sua operação é: ",conta)
+    return conta
 

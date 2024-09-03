@@ -2,5 +2,5 @@
 
 def resto_divisao(num1, num2):
     conta =  num1 % num2
-    print (conta)
+    print ("\nO resultado da sua operação é: ",conta)
     return conta

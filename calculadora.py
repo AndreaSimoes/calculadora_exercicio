@@ -6,20 +6,30 @@ from somar import somar
 from subtrair import subtrair
 
 def entrada():
-    num1 = float(input("Digite o primeiro número: "))
-    num2 = float(input("Digite o segundo número: " ))
-    return (num1,num2)
-
+    while True:
+        try:
+            num1 = float(input("\nDigite o primeiro número: "))
+            num2 = float(input("\nDigite o segundo número: " ))
+            return (num1,num2)
+            break
+        except:
+            print("Você não digitou um número.")
+        
 executar = True
 # criar um looping para calculadora
 
 while True:
-    operacao =  input("Escolha a operação que você quer fazer: \n 1. subtrair \n 2. somar \n 3. divisão \n 4. multiplicar \n 5. resto da divisão \n 0. sair \n")
+    operacao =  input("\nEscolha a operação que você deseja executar:\n" 
+                          "1. Subtração \n"
+                          "2. Soma \n" 
+                          "3. Divisão \n"
+                          "4. Multiplicação \n" 
+                          "5. Resto da divisão \n"
+                          "0. sair \n")
+
     if (operacao == '0'):
- #       executar = False
         print("Você está finalizando a calculadora")
-        break
-       
+        break    
     if (operacao == '1'):
         n1, n2 = entrada()
         subtrair(n1,n2)
@@ -36,4 +46,4 @@ while True:
         n1, n2 = entrada()
         resto_divisao(n1,n2)
     else:
-        print ("operacao invalida")
+        print ("\nDigite uma opção válida")
