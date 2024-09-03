@@ -1,16 +1,16 @@
 def historico(operacao):
     if (operacao == 1):
-        hist = '1 - somar'
+        hist = '1 - subtração'
         return hist
     elif (operacao == 2):
-        hist = '2 - subtrair'
+        hist = '2 - soma'
         return hist
     elif (operacao == 3):
-        hist = '3 - multiplicar'
+        hist = '3 - divisão'
         return hist
     elif (operacao == 4):
-        hist = '4 - dividir'
+        hist = '4 - multiplicação'
         return hist
-    else:
-        hist = '5 - resto'
+    elif (operacao == 5):
+        hist = '5 - resto de divisão'
         return hist
