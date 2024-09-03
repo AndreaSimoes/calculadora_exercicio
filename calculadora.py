@@ -36,8 +36,8 @@ while True:
 
         #finaliza o código e mostra o histórico de operações
         elif (operacao == 0):
-            print("Você está finalizando a calculadora")
-            print("O seu histórico é: " + str(historico_operacao))
+            print ("O seu histórico é: " + str(historico_operacao))
+            print ("Obrigado por usar a calculadora")
             break    
         
         #quando o número digitado foi 1,2,3,4 ou 5 o código irá realizar as seguintes ações:
