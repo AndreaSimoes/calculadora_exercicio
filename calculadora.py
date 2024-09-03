@@ -28,17 +28,24 @@ while True:
                             "3. Divisão \n"
                             "4. Multiplicação \n" 
                             "5. Resto da divisão \n"
+                            "6. Histórico da calculadora\n"
                             "0. sair \n"))
         
         #checar se o número está entre 0 e 5 
-        if (operacao < 0) or (operacao > 5):
+        if (operacao < 0) or (operacao > 6):
             print ("Essa opção é invalida")
 
-        #finaliza o código e mostra o histórico de operações
+        #finaliza o código 
         elif (operacao == 0):
-            print ("O seu histórico é: " + str(historico_operacao))
             print ("Obrigado por usar a calculadora")
-            break    
+            break   
+
+        #mostra o histórico de uso da calculadora e checa se a array está vazio.
+        elif (operacao == 6):
+            if len(historico_operacao) == 0:
+                print("Você ainda não executou nenhuma operação!")
+            else:
+                print ("O seu histórico é: " + str(historico_operacao)) 
         
         #quando o número digitado foi 1,2,3,4 ou 5 o código irá realizar as seguintes ações:
         else:
