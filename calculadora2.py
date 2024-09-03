@@ -2,8 +2,8 @@
 from somar import somar
 from subtrair import subtrair
 from multiplicar import multiplicar
-from dividir import dividir
-from resto import resto
+from divisao import dividir
+from resto_da_divisao import resto
 from historico import historico
 
 #para armazenar o historico das operações
